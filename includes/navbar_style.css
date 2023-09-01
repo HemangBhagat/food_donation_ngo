@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+
+/* $navbar-white: #fafafa;
+$navbar-black: #131313;
+$navbar-active-color: #fafafa;
+$navbar-bg-active-color: #ff9900;
+$bg-light-blue: #00c6ff;
+$bg-dark-blue: #0072ff; */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #e0e0e0;
+}
+.jumbo {
+  padding-top: 100px;
+  min-height: 200vh;
+}
+
+
+    .navbar 
+    {
+        color: #fafafa;
+        background: #00c6ff;
+        background: -webkit-linear-gradient(55deg,#00c6ff 10%,#0072ff 90%);
+        background: linear-gradient(35deg,#00c6ff 10%,#0072ff 90%);
+    }
+
